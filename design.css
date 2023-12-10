@@ -1,0 +1,880 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+ 
+/* css for body */
+
+body {
+    background-color: rgb(2, 5, 26);
+    color: white;
+    font-family: system-ui, '-apple-system', 'BlinkMacSystemFont', 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* css for navbar */
+
+.nav-ul {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 65rem;
+    list-style: none;
+    font-size: 1.4rem;
+    font-family: system-ui, '-apple-system', 'BlinkMacSystemFont', 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    height: 2rem;
+    width: 30rem;
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #e74c3c;
+
+}
+
+/* css for introduction part */
+
+.intro {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    font-size: 3rem;
+    width: 50rem;
+    padding: 3rem;
+    border-radius: 4rem;
+    box-shadow: 0px 0px 15px wheat;
+}
+.contact {
+    width: 8rem;
+    height: 3rem;
+    font: 200;
+    font-size: x-large;
+    margin-top: 1rem;
+    border-radius: 15px;
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(2, 5, 26);
+
+}
+
+.contact:hover {
+    box-shadow: 0px 0px 15px white;
+}
+
+.name {
+    color: white;
+    
+}
+/* animation part */
+
+.animation {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50rem;
+    margin-top: 0rem;
+}
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    animation: bounceUpDown 4s ease-in-out infinite;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 87px solid #e74c3c;
+    margin-top: 30px;
+    animation: rotateTriangle 10s linear infinite;
+}
+
+
+/* css for projects  */
+.project-maindiv{
+    margin-left: 12%;
+    background-color: rgb(20, 28, 43);
+    width: 75%;
+    height: 65vh;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px white;
+
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 25rem;
+    height: 18.8rem;
+    border-radius: 10px;
+    margin-left: 9rem;
+}
+
+.notedp {
+    width: 25rem;
+    height: 12.9rem;
+    border-bottom: none;
+    border-radius: 10px;
+}
+
+.sec1 {
+    height: 50%;
+}
+
+.sec2 {
+    margin-top: 2rem;
+}
+
+.div1 {
+    width: 40%;
+    display: flex;
+}
+
+.project {
+    margin-left: 28rem;
+    margin-top: 5rem;
+    color: rgb(181, 172, 172);
+}
+
+.maindiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+
+}
+
+.hnotepad {
+    font-size: large;
+    color: black;
+    margin-top: 1.9rem;
+    margin-left: 1rem;
+}
+
+/* css for project end here */
+
+/* css for skills */
+.skill-maindiv{
+    margin-left: 12%;
+    background-color: rgb(20, 28, 43);
+    width: 75%;
+    height: 45vh;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px white;
+}
+.hskill {
+    margin-left: 25.4rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    color:rgb(181, 172, 172) ;
+    
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 7rem;
+}
+
+.pssec1 {
+    background-color: rgb(15, 18, 37);
+    width: 22rem;
+    margin-left: 1rem;
+    height: 10rem;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px red;
+}
+
+.pssec1 h3 {
+    margin-left: 1rem;
+    padding: .4rem;
+}
+
+
+.ssec1li {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.tech {
+    background-color: rgb(1, 3, 22);
+    color: rgb(181, 172, 172);
+    box-shadow: 1px 1px 5px blue;
+    margin-left: .8rem;
+    padding: .3rem;
+    border-radius: 8px;
+    margin-top: .8rem;
+    list-style: none;
+    width: 8rem;
+    height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#css,
+#js {
+    box-shadow: 1px 1px 5px yellow;
+}
+
+/* css for second skill part */
+
+.pssec2 {
+    background-color: rgb(15, 18, 37);
+    width: 22rem;
+    margin-left: 4rem;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px yellow;
+}
+
+.pssec2 h3 {
+    margin-left: 1rem;
+    padding: .4rem;
+}
+
+.ssec2li {
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style: none;
+}
+
+.tech1 {
+    background-color: rgb(1, 3, 22);
+    color: rgb(181, 172, 172);
+    margin-left: .8rem;
+    padding: .3rem;
+    border-radius: 8px;
+    margin-top: .8rem;
+    list-style: none;
+    width: 8rem;
+    height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#dm {
+    width: 9rem;
+    text-align: center;
+    box-shadow: 0px 0px 5px blue;
+}
+.p{
+    color: black;
+    margin-left: 1rem;
+}
+#seo,
+#smo {
+    box-shadow: 1px 1px 5px red;
+}
+/* css for skills are end here */
+
+/* achievement section is here */
+.achivement-maindiv{
+    background-color: rgb(20, 28, 43);
+    width: 75%;
+    margin-left: 12%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px white;
+    height: 68vh;
+}
+.hachivements {
+    margin-left: 26rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    color: rgb(181, 172, 172);
+}
+
+.achivements {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: .5rem;
+    margin-top: 1rem;
+    margin-left: 15%;
+    width: 80%;
+}
+
+.achivements img {
+    height: 10rem;
+    width: 15rem;
+    box-shadow: 1px 1px 5px red;
+}
+
+.achivements img:hover {
+   opacity: .89;
+}
+/* .achivements section is end here */
+
+/* css for about section */
+.para1{
+    width: 70rem;
+    height: 100vh;
+    background-color: rgb(20, 28, 43);
+    margin-left: 12rem;
+    margin-top: 3.3rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 9px ;
+    box-shadow: 1px 1px 5px white;
+}
+
+ .para1 .img{
+    height: 11rem;
+    width: 11rem ;
+    border: 3px solid white;
+    margin-left: 1vw;
+    margin-top: 1.8%;
+    border-radius: 50%;
+    background-image: url(2rakh\ bagh.jpeg);
+    background-repeat: no-repeat;
+    background-size:180px;
+    
+ }
+.para-p{
+    height: fit-content; 
+    width: 92%;
+    margin-left:1.8%;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+ .abouthead{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(10, 10, 29);
+    width: 45rem;
+    height: 31vh;
+    padding: 0px;
+    margin-left: 17%;
+    margin-top: 2%;
+    border-radius: inherit;
+    box-shadow: 1px 1px 5px white;
+ }
+ .ele1{
+    margin-top: 7%;
+    margin-left: 3%;
+ }
+ .ele1 h2{
+    margin-left:6.2%;
+ }
+ .ele1 p{
+    margin-left:6.2%;
+    width: 100%;
+    height: fit-content;
+    font-size: larger;
+ }
+
+ .para1 h1{
+    font-size: 5.4rem;
+    margin-left: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+
+
+.fa-facebook {
+    background: transparent;
+    color: white;
+    
+  }
+  .fa {
+    padding: 8px;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa:hover{
+    box-shadow: 1px 1px 5px white;
+  }
+
+  .fa-linkedin {
+    background: transparent;
+    color: white;
+   
+  }
+  .fa-instagram {
+    background: transparent;
+    color: white;
+    
+  }
+
+  /* css for .contact */
+
+  .contact-maindiv{
+    background-color: rgb(20, 28, 43);
+    width: 100vw;
+    margin-top: 1.8rem;
+    height: 13vh;
+  }
+  .icons-contact{
+    margin-left: 43rem;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* css for key frames activities */
+
+@keyframes updown {
+    0% {
+        opacity: 0px;
+    }
+
+    30% {
+        opacity: 0%;
+    }
+
+    70% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes rotateTriangle {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: translatex(-100px);
+    }
+}
+
+@keyframes bounceUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+}
+
+
+
+
+/* css for making website responsive on everydevice */
+/* for nav bar */
+/* for mobiles */
+@media only screen and (max-width: 850px){
+
+   
+    .nav-ul {
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 4vw;
+        margin-top: .8vh;
+        list-style: none;
+        font-size: 1rem;
+        font-family: system-ui, '-apple-system', 'BlinkMacSystemFont', 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+        height: 2rem;
+        width: 95vw;
+        
+    }
+}
+/* css of bar end */
+/* css for introduction */
+@media only screen and (max-width: 850px){
+    
+    .intro {
+        margin-top: 3rem;
+        margin-left: 2vw;
+        font-size: x-large;
+        width:70vw;
+        padding: 3rem;
+        border-radius: 4rem;
+        box-shadow: 0px 0px 15px wheat;
+    }
+     
+    .name {
+        color: white;
+        font-size: larger;
+    }
+    .intro h2{
+        font-size: larger;
+    }
+    .contact{
+        width: 5rem;
+        height: 2rem;
+        font-size: medium;
+    }
+.intro p{
+    font-size: medium;
+}
+    /* css for animation part */
+    .animation {
+        display: flex;
+        flex-direction: row;
+        margin-left: 50vw;
+        width: 55vw;
+        margin-top: 0rem;
+    }
+    .circle {
+        width: 70px;
+        height: 70px;
+        background-color: #3498db;
+        border-radius: 50%;
+        animation: bounceUpDown 4s ease-in-out infinite;
+    }
+    
+    .triangle {
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 60px solid #e74c3c;
+        margin-top: 30px;
+        animation: rotateTriangle 10s linear infinite;
+    }
+}
+/* css for about section */
+ /* for phones */
+@media only screen and (max-width: 850px){
+
+
+.para1{
+    width:80%;
+    height: fit-content;
+    padding: 1.3%;
+    background-color: rgb(20, 28, 43);
+    margin-left:10%;
+    margin-top: 3.3rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 9px ;
+    box-shadow: 1px 1px 5px white;
+}
+/* upper part of about */
+.abouthead{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(10, 10, 29);
+    width:80%;
+    height:30vh;
+    padding: 0px;
+    margin-left: 8%;
+    margin-top: 3.8%;
+    border-radius: inherit;
+    box-shadow: 1px 1px 5px white;
+ }
+
+ .para1 .img{
+    height: 100px;
+    width: 100px ;
+    border: 3px solid white;
+    margin-left: 14vw;
+    margin-top: 2.2%;
+    border-radius: 50%;
+    background-image: url(2rakh\ bagh.jpeg);
+    background-repeat: no-repeat;
+    background-size:120px;
+    
+ }
+
+ .ele1{
+    margin-top: 1%;
+    
+ }
+ .ele1 h2{
+    margin-left:15vw;
+    font-weight: 100;
+    font-size: medium;
+ }
+ .ele1 p{
+    margin-left:6.2%;
+    width: 100%;
+    height: fit-content;
+    font-size:12px;
+ }
+ .fa {
+    padding: 1.5px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+ .para-p{
+    height: fit-content; 
+    width: 98%;
+    margin-left:.5%;
+    margin-top: 1rem;
+    font-size: .9rem;
+    font-weight: 100;
+}
+
+ .para1 h1{
+    font-size: 5.4rem;
+    margin-left: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+ }
+}
+/* css for about section is end here */
+
+/* css for project section */
+/* for phones */
+@media only screen and (max-width: 850px){
+
+    .project-maindiv{
+        margin-left: 9%;
+        background-color: rgb(20, 28, 43);
+        width: 81%;
+        height: 71vh;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px white;
+    }
+    .project {
+        margin-left: 18vw;
+        margin-top: 5rem;
+        color: rgb(181, 172, 172);
+        padding: 0%;
+    }
+    .maindiv {
+        display: flex;
+        flex-direction:column;
+        margin-top: .2rem;
+    
+    }
+    .projects {
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        width: 75vw;
+        height: fit-content;
+        border-radius: 10px;
+        margin-left: .5rem;
+        
+        border:1px solid white;
+    }
+    
+    .notedp {
+        width: 75vw;
+        height: 17vh;
+        border-bottom: none;
+        border-radius: 10px;
+    }
+    
+    .sec1 {
+        margin-top: 0px;
+        height: 52%;
+    }
+    
+    .sec2 {
+        margin-top:.5rem;
+       
+    }
+    .hnotepad{
+        padding: 0%;
+        margin-top: .1rem;
+    }
+    
+    .div1 {
+        height: 48%;
+        width: 40%;
+        display: flex;
+        margin-top:.8rem;
+    }
+    .div2 {
+        height: 48%;
+        width: 40%;
+        display: flex;
+        margin-top: 1rem;
+    }   
+}
+/* css of project section end */
+ /* css for skills section */
+@media only screen and (max-width: 850px){
+    .skill-maindiv{
+        margin-left: 9%;
+        background-color: rgb(20, 28, 43);
+        width: 81%;
+        padding:1.5%;
+        height: 50vh;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px white;
+        margin-top: 2.3rem;
+    }
+    .hskill {
+        margin-left: 10vw;
+        margin-top: 0rem;
+        font-size: xx-large;
+        padding: 0rem;
+        color:rgb(181, 172, 172) ;
+        
+    }
+    
+    .skills {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0%;
+        padding: .5%;
+    }
+    
+    .pssec1 {
+        margin-top: 1.2rem;
+        background-color: rgb(15, 18, 37);
+        width: 70vw;
+        height: 10rem;
+        border-radius: 15px;
+        box-shadow: 1px 1px 5px red;
+    }
+    
+    .pssec1 h3 {
+        margin-left: 1rem;
+        padding: .4rem;
+        color: rgb(181,172,172);
+        font-weight: 100;
+    }
+    
+    
+    .tech {
+        background-color: rgb(1, 3, 22);
+        color: rgb(181, 172, 172);
+        box-shadow: 1px 1px 5px blue;
+        margin-left: .8rem;
+        padding: .3rem;
+        border-radius: 8px;
+        margin-top: .8rem;
+        list-style: none;
+        width: 20vw;
+        font-weight: 100;
+        height: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    
+    /* css for second skill part */
+    
+    .pssec2 {
+        background-color: rgb(15, 18, 37);
+        width:67vw;
+        margin-left:1rem;
+        border-radius: 15px;
+        box-shadow: 1px 1px 5px yellow;
+        margin-top: 1rem;
+        padding:.5rem;
+        height: 14vh;
+    }
+    
+    .pssec2 h3 {
+        margin-left: 1rem;
+        padding: .4rem;
+        font-weight: 100;
+        color: rgb(181,172,172);
+    }
+    
+  
+    
+    .tech1 {
+        background-color: rgb(1, 3, 22);
+        color: rgb(181, 172, 172);
+        margin-left: .8rem;
+        padding: .3rem;
+        border-radius: 8px;
+        margin-top: .8rem;
+        list-style: none;
+        width: 20vw;
+        font-weight: 100;
+        height: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+}
+/* css of skills end here */
+
+/* achivement part is here babe */
+@media only screen and (max-width: 850px){
+    
+.achivement-maindiv{
+    background-color: rgb(20, 28, 43);
+    width: 81%;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px white;
+    height: 44vh;
+    
+}
+.hachivements {
+    margin-left: 12vw;
+    margin-top: 3rem;
+    padding: 0;
+    color: rgb(181, 172, 172);
+}
+
+.achivements {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: .5rem;
+    margin-top: 1rem;
+    margin-left: 2.5vw;
+    width: 80%;
+}
+
+.achivements img {
+    height: 16vh;
+    width: 37vw;
+    box-shadow: 1px 1px 5px red;
+}
+}
+
+
+/* .achivements section is end here */
+
+/* contact section start here */
+@media only screen and (max-width: 850px){
+
+    .contact-maindiv{
+        background-color: rgb(20, 28, 43);
+        width: 100vw;
+        margin-top: 2rem;
+        height: 13vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .icons-contact{
+        margin-left: 12vw;
+
+ }
+}
+/* responsive css ends here */
